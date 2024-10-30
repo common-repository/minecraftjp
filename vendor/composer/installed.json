@@ -1,0 +1,45 @@
+[
+    {
+        "name": "minecraftjp/minecraftjp-php-sdk",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/MinecraftJP/minecraftjp-php-sdk.git",
+            "reference": "38313db99dc22b87c3f058a04ed793bfe3c2fe56"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/MinecraftJP/minecraftjp-php-sdk/zipball/38313db99dc22b87c3f058a04ed793bfe3c2fe56",
+            "reference": "38313db99dc22b87c3f058a04ed793bfe3c2fe56",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2015-05-02 01:28:55",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Japan Minecraft Network",
+                "homepage": "https://minecraft.jp"
+            }
+        ],
+        "description": "minecraft.jp PHP SDK",
+        "homepage": "https://minecraft.jp/developer/",
+        "keywords": [
+            "OpenID Connect",
+            "minecraft"
+        ]
+    }
+]

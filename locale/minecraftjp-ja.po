@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-minecraftjp\n"
+"POT-Creation-Date: 2015-05-04 08:57+0900\n"
+"PO-Revision-Date: 2015-05-04 08:57+0900\n"
+"Last-Translator: ayunyan <ayu@commun.jp>\n"
+"Language-Team: \n"
+"Language: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: S:\\vhosts\\neko\\public_html\\wordpress\\wp-content"
+"\\plugins\\minecraftjp\\src\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: WPMinecraftJP/View/user_profile.php:4
+msgid "minecraft.jp"
+msgstr ""
+
+#: WPMinecraftJP/View/user_profile.php:7
+msgid "Minecraft Username"
+msgstr "Minecraftユーザ名"
+
+#: WPMinecraftJP/View/user_profile.php:9
+msgid "Unlink account"
+msgstr "アカウントのリンク解除"
+
+#: WPMinecraftJP/View/user_profile.php:11
+msgid "Link account"
+msgstr "アカウントをリンク"
+
+#: WPMinecraftJP/View/admin_settings.php:3
+#: WPMinecraftJP/Controller/AdminController.php:11
+msgid "MinecraftJP Settings"
+msgstr "MinecraftJP設定"
+
+#: WPMinecraftJP/View/admin_settings.php:19
+msgid "Application Settings"
+msgstr "アプリケーション設定"
+
+#: WPMinecraftJP/View/admin_settings.php:21
+#, php-format
+msgid ""
+"You need to create a App in minecraft.jp App Console. <a href=\"%s\" target="
+"\"__blank\">Click here</a>"
+msgstr ""
+"minecraft.jpのApp Consoleからアプリを登録する必要があります。<a href=\"%s\" "
+"target=\"_blank\">こちらをクリックしてください。</a>"
+
+#: WPMinecraftJP/View/admin_settings.php:26
+msgid "Application Type"
+msgstr "アプリケーションタイプ"
+
+#: WPMinecraftJP/View/admin_settings.php:27
+msgid "Service Account"
+msgstr "サービスアカウント"
+
+#: WPMinecraftJP/View/admin_settings.php:30
+msgid "Client ID"
+msgstr ""
+
+#: WPMinecraftJP/View/admin_settings.php:34
+msgid "Client Secret"
+msgstr ""
+
+#: WPMinecraftJP/View/admin_settings.php:38
+msgid "Callback URI"
+msgstr "コールバックURI"
+
+#: WPMinecraftJP/View/admin_settings.php:44
+msgid "Avatar Settings"
+msgstr "アバター設定"
+
+#: WPMinecraftJP/View/admin_settings.php:49
+msgid "Avatar Display"
+msgstr "アバター表示"
+
+#: WPMinecraftJP/View/admin_settings.php:50
+msgid "Show Minecraft Avatar"
+msgstr "Minecraftのアバターを表示する"
+
+#: WPMinecraftJP/View/admin_settings.php:55
+msgid "User Settings"
+msgstr "ユーザ設定"
+
+#: WPMinecraftJP/View/admin_settings.php:60
+msgid "Membership"
+msgstr ""
+
+#: WPMinecraftJP/View/admin_settings.php:61
+msgid "Force users can register"
+msgstr "常にユーザー登録可能にする"
+
+#: WPMinecraftJP/View/admin_settings.php:64
+msgid "Username Suffix"
+msgstr "ユーザ名サフィックス"
+
+#: WPMinecraftJP/View/admin_settings.php:67
+msgid ""
+"You can add a suffix to username in order to avoid conflicts with existing "
+"username. (e.g. \"@minecraft.jp\")"
+msgstr ""
+"既存のユーザ名との衝突を避けるためにユーザ名にサフィックスを追加する事が出来"
+"ます。 (例: \"@minecraft.jp\")"
+
+#: WPMinecraftJP/View/admin_settings.php:73
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: WPMinecraftJP/View/login.php:2
+msgid "Login with minecraft.jp"
+msgstr "minecraft.jpでログイン"
+
+#: WPMinecraftJP/Controller/AdminController.php:20
+#: WPMinecraftJP/Controller/PublicController.php:123
+msgid "Bad request."
+msgstr "不正なリクエスト"
+
+#: WPMinecraftJP/Controller/AdminController.php:34
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: WPMinecraftJP/Controller/AdminController.php:63
+msgid "Settings"
+msgstr "設定"
+
+#: WPMinecraftJP/Controller/PublicController.php:47
+msgid "This account is already linked."
+msgstr "このアカウントは既にリンクされています。"
+
+#: WPMinecraftJP/Controller/PublicController.php:52
+msgid "Minecraft.jp account linked successfully."
+msgstr "Minecraft.jpアカウントのリンクに成功しました。"
+
+#: WPMinecraftJP/Controller/PublicController.php:55
+#: WPMinecraftJP/Controller/PublicController.php:114
+msgid "Authorization denied."
+msgstr "承認に失敗しました。"
+
+#: WPMinecraftJP/Controller/PublicController.php:77
+msgid "username or email is already taken."
+msgstr "ユーザ名またはメールアドレスは既に登録されています。"
+
+#: WPMinecraftJP/Controller/PublicController.php:132
+msgid "Minecraft.jp account unlinked successfully."
+msgstr "Minecraft.jpアカウントのリンク解除に成功しました。"
